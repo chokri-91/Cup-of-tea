@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cup of tea</title>
+    <!-- appel du CSS de font-awesome pour les icones -->
+    <script src="https://kit.fontawesome.com/9b99b32647.js" crossorigin="anonymous"></script>
+    
+    <!-- Police de google font -->
+
+    <!-- flexslider -->
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(window).load(function() {
+        $('.flexslider').flexslider();
+      });
+    </script>
+    <!-- on appelle toujours son CSS en dernier --> 
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/cup of tea.css" />
+</head>
+<body>
+    <!-------------- en-tete ------------>
+    <header>
+        <div>
+            <img src="img/ribbon.svg" alt="ribbon" id="ribbon">
+            <p> Livraison offerte à partir de 65€ d'achat !</p>
+        </div>
+        <section class="container" id="section">
+                <img src="img/logo.png" alt="logo">
+                <span>
+                    <strong>Mon panier</strong>
+                    <i class="fas fa-shopping-cart"></i>
+                    <strong>42.00€</strong>
+                </span>
+        </section>
+        <nav class="container" id="nav">
+            <a href="listing.html">THÉS</a>
+            <a href="#">GRAND CRUS</a>
+            <a href="#">ACCESSOIRES</a>
+            <a href="#">EPICERIES</a>
+            <a href="about.html">NOTRE HISTOIRE</a>
+        </nav>
+
+    </header>
+
+    <!--------------- main ----------->
+
+    <main class="container">
+        <section id="sec1"> 
+            <article>
+                <h1> C'est noël, profitez-en ! </h1>
+                <img src="img/offre-noel.jpg" alt="noel">
+                <small> Pour toute commande effectuée avant le 20 Décembre</small>
+            </article>
+            <article>
+                <div class="flexslider">
+                  <ul class="slides">
+                    <li>
+                      <img src="img/slider/1.jpg" alt="slider1" />
+                    </li>
+                    <li>
+                      <img src="img/slider/2.jpg" alt="slider2" />
+                    </li>
+                    
+                </div>
+            </article>
+        </section>
+        <section id="sec2">
+            <div>
+                <h2><span>Choisissez votre thé</span></h2>
+            </div>
+            <figure>
+                <img src="img/tea/1.jpg" alt="tea1">
+                <figcaption>
+                    <p>Thé noir</p>
+                </figcaption>
+            </figure>
+        
+            <figure>
+                <img src="img/tea/2.jpg" alt="tea2">
+                <figcaption>
+                       <p>Thé vert</p>
+                </figcaption>
+             </figure>
+        
+             <figure>
+                 <img src="img/tea/3.jpg" alt="tea3">
+                <figcaption>
+                       <p>Oolong</p>
+                </figcaption>
+             </figure>
+       
+            <figure>
+                 <img src="img/tea/4.jpg" alt="tea4">
+                 <figcaption>
+                     <p>Thé blanc</p>
+                 </figcaption>
+            </figure>
+           
+             <figure>
+                 <img src="img/tea/5.jpg" alt="tea5">
+                <figcaption>
+                      <p>Rooibos</p>
+                </figcaption>
+            </figure>
+            
+        </section>
+        <section id="sec3">
+            <article>
+                <div>
+                    <h2> <span>Notre nouveauté</span></h2>
+                </div>
+                <img src="img/product/product1.jpg" alt="product1">
+                <strong> Thé du Hammam</strong>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
+                <p> À partir de</p>
+                <strong>8.50€</strong>
+                <a href="#">VOIR CE PRODUIT</a>
+            </article>
+            <article>
+                <div>
+                    <h2> <span>Notre best-seller</span></h2>
+                </div>
+                <img src="img/product/product2.jpg" alt="product2">
+                <strong> Infusion herboriste</strong>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
+                <p> À partir de</p>
+                <strong>7.60€</strong>
+                <a href="#">VOIR CE PRODUIT</a>
+            </article>
+            <article>
+                <div>
+                    <h2> <span>Notre coup de coeur</span></h2>
+                </div>
+                <img src="img/product/product3.jpg" alt="product3">
+                <strong> Blue of London</strong>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
+                <p> À partir de</p>
+                <strong>9.00€</strong>
+                <a href="product.html">VOIR CE PRODUIT</a>
+            </article>
+            
+        </section>
+    </main>
+
+    <!--------------- footer ----------->
+
+    <footer>
+        <section id="foot1">
+            <div>
+                <i class="fas fa-lock"></i>
+                <p>PAIEMENT SÉCURISÉ</p>
+            </div>
+            <div>
+                <i class="fas fa-truck"></i>
+                <p>MA LIVRAISON OFFERTE</p>
+            </div>
+            <div>
+                <i class="far fa-money-bill-alt"></i>
+                <p>CARTE DE FÉDILITÉ</p>
+            </div>
+
+            <div>
+                <i class="fas fa-phone"></i>
+                <p>SERVICE CLIENT</p>
+            </div>
+            <div>
+                <i class="fas fa-check"></i>
+                <p>GARANTIE QUALITÉ</p>
+            </div>
+        </section>
+        <section id="foot2">
+            <div>
+                <strong>CUP OF TEA</strong>
+                <a href="about.html">Notre histoire</a>
+                <a href="#">Nos boutiques</a>
+                <a href="#">Le Thé de A à Z</a>
+                <a href="#">Espace clients professionnels</a>
+                <a href="#">Recrutement</a>
+                <a href="#">Contactez-nous</a>
+                <a href="#">L'École du Thé</a>
+            </div>
+            <div>
+                <strong>COMMANDE EN LIGNE</strong>
+                <a href="#">Première visite</a>
+                <a href="#">Aide-FAQ</a>
+                <a href="#">Service client</a>
+                <a href="#">Suivre ma commande</a>
+                <a href="#">Conditions générales de vente</a>
+                <a href="#">Informations légales</a>
+            </div>
+            <div>
+                <strong>SUIVEZ-NOUS !</strong>
+                <a href="#">Notre histoire</a>
+                <a href="#">Nos boutiques</a>
+                <a href="#">Le Thé de A à Z</a>
+                <a href="#">Espace clients professionnels</a>
+            </div>
+        </section>
+        <section id="foot3">
+            <img src="https://3wa.fr/wp-content/uploads/2020/01/cropped-big.png" alt="3wa" title="3WA">
+                <div>   
+                    
+                        <p><small>Cet exercice de <a href="#">3W academy</a> est mis à disposition <a href="#"> pour l'usage personnel des étudiants, Pas de Rediffusion - Attribution - Pas d'utilisation commerciale - Pas de modification - International </a>.</p><p>Les autorisations au-délà du champ de cette licence peuvent etre obtenues auprès de <a href="#">contact@3wa.fr</a>. Les maquettes ont été réalisés par <a href="#">Justine Muller </a></small></p>
+                    
+                </div>
+        </section>
+    </footer>
+
+</body>
+</html>
